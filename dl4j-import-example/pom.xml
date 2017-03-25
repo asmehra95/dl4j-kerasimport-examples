@@ -36,6 +36,37 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
+     <!--dependecies for importing vgg16-->
+	<dependency>
+    	<groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.4</version>
+	</dependency>
+      <dependency>
+          <groupId>org.deeplearning4j</groupId>
+          <artifactId>deeplearning4j-nn</artifactId>
+          <version>${dl4j.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.deeplearning4j</groupId>
+          <artifactId>dl4j-spark-ml</artifactId>
+          <version>0.4-rc3.8</version>
+      </dependency>
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.5</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-math3</artifactId>
+          <version>3.6.1</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+          <version>3.5</version>
+      </dependency>
     </dependencies>
     <build>
         <plugins>
